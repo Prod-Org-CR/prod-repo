@@ -1,0 +1,27 @@
+{
+  "name": "pred-repo",
+  "version": "1.0.0",
+  "description": "prod testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run cypress:run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:verify": "cypress verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prod-Org-CR/pred-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Prod-Org-CR/pred-repo/issues"
+  },
+  "homepage": "https://github.com/Prod-Org-CR/pred-repo#readme",
+  "devDependencies": {
+    "cypress": "^15.14.0"
+  }
+}
